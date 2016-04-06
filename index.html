@@ -2,23 +2,56 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Screenit</title>
+    <title>Screenit: Visual Analysis of Cellular Screens</title>
 
-    <link rel="stylesheet" type="text/css" href="bower_components/bootswatch/simplex/bootstrap.min.css">
-
-
+    <link rel="stylesheet" type="text/css" href="bower_components/bootswatch/cosmo/bootstrap.min.css">
 </head>
+
 <body>
-<div class="jumbotron">
 
-    <div class="container">
+<div class="container">
+    <div class="row text-center">
+        <div class="col-sm-6">
+            <h3>Screenit: Visual Analysis of Cellular Screens</h3>
+            <p>
+                <a href="https://www.linkedin.com/in/kasper-dinkla-5553b6aa">Kasper Dinkla</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="http://hendrik.strobelt.com">Hendrik Strobelt</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/bryan-genest-224a062">Bryan Genest</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="https://www.linkedin.com/in/stephanreiling">Stephan Reiling</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="http://vcg.seas.harvard.edu/people/hanspeter-pfister">Hanspeter Pfister</a>
+            </p>
+        </div>
+    </div>
 
-        <h1>ScreenIt</h1>
-        <p> Coming soon ... </p>
+    <div class="row text-center">
+        <div class="col-sm-6">
+            <p class="text-justify">
+                High-throughput and high-content screening enables large scale, cost-effective experiments in which cell cultures are exposed to a wide spectrum of drugs.
+                The resulting multivariate data sets have a large but shallow hierarchical structure.
+                The deepest level of this structure describes cells in terms of numeric features that are derived from image data.
+                The subsequent level describes enveloping cell cultures in terms of imposed experiment conditions (exposure to drugs).
+                We present Screenit, a visual analysis approach designed in close collaboration with screening experts.
+                Screenit enables the navigation and analysis of multivariate data at multiple hierarchy levels and at multiple levels of detail.
+                Screenit integrates the interactive modeling of cell physical states (phenotypes) and the effects of drugs on cell cultures (hits).
+                In addition, quality control is enabled via the detection of anomalies that indicate low-quality data,
+                while providing an interface that is designed according to typical work flows of screening experts.
+                We demonstrate analyses for a real-world data set, <a href="http://www.ebi.ac.uk/huber-srv/cellmorph">CellMorph</a>, with six million cells across 20,000 cell cultures.
+            </p>
 
+            <img src="images/seas.png" height="50" style="-webkit-filter: grayscale(100%);filter: grayscale(100%); margin-top: 10px" />&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="images/novartis.svg" height="50" style="-webkit-filter: grayscale(100%);filter: grayscale(100%); margin-top: 10px" />
+
+        </div>
+
+        <div class="col-sm-6">
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" width="720"
+                        src="https://www.youtube.com/embed/TqKiF1OQ2bM?modestbranding=1&autohide=1&showinfo=0" frameborder="0"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
 </div>
-
 
 </body>
 </html>
